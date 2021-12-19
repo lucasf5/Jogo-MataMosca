@@ -13,13 +13,13 @@ var nivel = window.location.search
 nivel = nivel.replace('?', '')
 
 if(nivel === 'normal') {
-	tempo = 20
+	
 	criaMosquitoTempo = 1500
 } else if(nivel === 'dificil') {
-	tempo = 40
+	
 	criaMosquitoTempo = 1000
 } else if(nivel === 'ultra') {
-	tempo = 80
+	
 	criaMosquitoTempo = 750
 }
 
